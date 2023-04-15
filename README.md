@@ -28,7 +28,7 @@
     </tr>
     <tr>
       <td>Luciano</td>
-      <td>Corte<</td>
+      <td>Cortez</td>
     </tr>
     <tr>
       <td>Mauricio</td>
