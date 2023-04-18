@@ -52,6 +52,6 @@
   <h1>Lenguajes</h1>
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzgwNzdlMTVhZTUyYThhNzcxN2QwZTFlNzM2NTE5NzFjZDE3MmM4YyZjdD1z/LMt9638dO8dftAjtco/giphy.gif" width="250">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDFkZjRmNDc1YzdiMzIyMWIyYWVhNDI4Yzc1MmVmNzBiYTQwN2Q4NSZjdD1z/ln7z2eWriiQAllfVcn/giphy.gif" width="250">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmE1ZDhjNTczMjI1YjE0ZjA0YzdmYzYxYjA2Njk2MmE3OGM1ZmZiZiZjdD1n/fto830XU9dYPzr8RQw/giphy.gif" width="250">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzQ3NjY4YWVhYjU1MjdlYWNjNTY5NGExNmMyNGZmYzhkODkzZWEyMyZjdD1n/nzww6V8fQhq1MZjk2p/giphy.gif" width="250">
 </div>
 
