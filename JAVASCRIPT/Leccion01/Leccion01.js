@@ -1,11 +1,10 @@
 //codigo de javascript
 
-//Palabra reservada Continue
+//Palabra reservada Break
 for (let contando = 0; contando <=10; contando++){
-	if(contando % 2 !== 0){
-		continue; //Ir a la siguiente iteracion
-		
+	if(contando % 2 == 0){
+		console.log(contando); //Muestra todos los pares
+		break;
 	}
-	console.log(contando);  0,2,4,6,8,10
 }
-console.log("Termina el ciclo");
+console.log("Termina el ciclo al encontrar los pares");
