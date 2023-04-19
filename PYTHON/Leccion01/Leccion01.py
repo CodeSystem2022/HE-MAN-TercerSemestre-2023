@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #codigo de PYTHON
+=======
+
+>>>>>>> master
 try :
     a = int(input("digite un numero")) #agregamos input
     b = int(input("digite otro numero"))
@@ -11,6 +15,7 @@ except Exception as e:
     print(f"Ocurrio un error : {e} ")
 
 print(f"El resultado es {resultado} ")
+<<<<<<< HEAD
 
 # Procesamiento de excepciones
 resultado = None
@@ -23,3 +28,5 @@ except Exception as e:
 
 print(f"El resultado es {resultado} ")
 print("seguimos...")
+=======
+>>>>>>> master
