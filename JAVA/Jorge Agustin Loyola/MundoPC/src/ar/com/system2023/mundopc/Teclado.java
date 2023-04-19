@@ -1,0 +1,24 @@
+package ar.com.system2023.mundopc;
+
+public class Teclado extends DispositivoEntrada{
+    
+    private final int idTeclado;
+    private static int contadorTeclado;
+    
+    
+    //Contructor
+    
+    public Teclado(String tipoEntrada, String marca) {
+        super(tipoEntrada, marca);
+        this.idTeclado = ++Teclado.contadorTeclado;
+    
+    }
+    
+    // TO STRING
+    @Override
+    public String toString() {
+        return "Teclado{" + "idTeclado=" + idTeclado +", "+super.toString()+"}";
+    }   
+}
+    
+
