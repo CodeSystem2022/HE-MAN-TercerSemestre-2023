@@ -18,4 +18,4 @@ for(let numero = 0 ; numero<=10 ; numero++){
     }// el continue lo que hace es ignorar los impares y continua imprimiendo los pares 
     console.log(numero)
 }
-console.log("Terminar el ciclo al encontrar el primer numero par ")
+console.log("Terminar el ciclo al encontrar el primer numero par ");
