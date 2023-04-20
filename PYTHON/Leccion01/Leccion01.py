@@ -1,4 +1,7 @@
+
 #codigo de PYTHON
+
+
 try :
     a = int(input("digite un numero")) #agregamos input
     b = int(input("digite otro numero"))
@@ -12,6 +15,7 @@ except Exception as e:
 
 print(f"El resultado es {resultado} ")
 
+
 # Procesamiento de excepciones
 resultado = None
 a = 10
@@ -23,3 +27,24 @@ except Exception as e:
 
 print(f"El resultado es {resultado} ")
 print("seguimos...")
+
+# exepciones personalizadas en python
+try:
+     a = int(input(" digite el primer numero: "))
+     b = int(input(" digite el segundo numero: "))
+     if a == b:
+        raise NumerosIgualesException("Son numeros iguales") # la palabra raise nos permite arrojar cualquier excepcion
+     resultado = a / b # modificamos
+except TypeError as e:
+    print(f"TypeError - ocurrio un error: {type(e)}")
+except ZeroDivisionError as e:
+     print(f"ZeroDivisionError - ocurrio un error: {type(e)}")
+except Exception as e:
+      print(f"ocurrio un error: {type(e)}")
+  else:
+      print("No se arrojo ninguna excepcion")
+  finally: # siempre se va a ejecutar
+      print("ejecucion de este bloque finalizada")
+
+print(f"el resultado es: {resultado}")
+print("seguimos")
