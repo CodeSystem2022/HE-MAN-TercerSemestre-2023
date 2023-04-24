@@ -19,3 +19,12 @@ for(let numero = 0 ; numero<=10 ; numero++){
     console.log(numero)
 }
 console.log("Terminar el ciclo al encontrar el primer numero par ");
+// ciclo While
+
+let contador = 0;
+while(contador<3){
+    console.log(contador);
+    contador++;
+}
+console.log("Fin del ciclo while");
+
