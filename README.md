@@ -48,52 +48,6 @@
     </tr>
   </table>
 </div>
-<div align= "center">
-  <h1>INTEGRANTES:</h1>
-  <table border="1">
-    <tr>
-      <th>NOMBRE:</th>
-      <th>APELLIDO:</th>
-    </tr>
-    <tr>
-      <td>Emmanuel</td>
-      <td>Sbona</td>
-    </tr>
-    <tr>
-      <td>Matias</td>
-      <td>Michaux</td>
-    </tr>
-    <tr>
-      <td>Jorge Agustin</td>
-      <td>Loyola</td>
-    </tr>
-    <tr>
-      <td>Fabio Javier</td>
-      <td>Flores</td>
-    </tr>
-    <tr>
-      <td>Luciano</td>
-      <td>Cortez</td>
-    </tr>
-    <tr>
-      <td>Mauricio</td>
-      <td>Cerda</td>
-    </tr>
-    <tr>
-      <td>Fernando Matias</td>
-      <td>Cala</td>
-    </tr>
-    <tr>
-      <td>Juan Manuel</td>
-      <td>Bresanovich</td>
-    </tr>
-    <tr>
-      <td>Sebastían</td>
-      <td>Barros</td>
-    </tr>
-  </table>
-</div>
---
 --
 <div align= "center">
   <h1>Scrum Master:</h1>
