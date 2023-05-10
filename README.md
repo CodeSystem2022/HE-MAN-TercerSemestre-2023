@@ -48,10 +48,49 @@
     </tr>
   </table>
 </div>
-<div align="center">
-  <h1>Lenguajes</h1>
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzgwNzdlMTVhZTUyYThhNzcxN2QwZTFlNzM2NTE5NzFjZDE3MmM4YyZjdD1z/LMt9638dO8dftAjtco/giphy.gif" width="250">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDFkZjRmNDc1YzdiMzIyMWIyYWVhNDI4Yzc1MmVmNzBiYTQwN2Q4NSZjdD1z/ln7z2eWriiQAllfVcn/giphy.gif" width="250">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzQ3NjY4YWVhYjU1MjdlYWNjNTY5NGExNmMyNGZmYzhkODkzZWEyMyZjdD1n/nzww6V8fQhq1MZjk2p/giphy.gif" width="250">
+--
+<div align= "center">
+  <h1>Scrum Master:</h1>
+  <table border="1">
+    <tr>
+      <th>SEMANA:</th>
+      <th>ALUMNO:</th>
+    </tr>
+    <tr>
+      <td>SEMANA 1</td>
+      <td>MATIAS MICHAUX</td>
+    </tr>
+    <tr>
+      <td>SEMANA 2</td>
+      <td>EMMANUEL SBONA</td>
+    </tr>
+    <tr>
+      <td>SEMANA 3</td>
+      <td>FERNANDO CALA</td>
+    </tr>
+    <tr>
+      <td>SEMANA 4</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>SEMANA 5</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>SEMANA 6</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>SEMANA 7</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>SEMANA 8</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>SEMANA 9</td>
+      <td></td>
+    </tr>
+  </table>
 </div>
-

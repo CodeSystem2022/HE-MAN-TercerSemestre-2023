@@ -1,8 +1,11 @@
 
+//Fabio J Flores
+
 // Creacion de Array o arreglos
 // let autos = new Array("Ferrari", "Renault", "BMW"); esta es la sintaxis vieja
 const autos = ["Ferrari", "Renault", "BMW"];
 console.log(autos);
+
 
 // Recorremos los elementos de un arreglo
 console.log(autos[0]);
