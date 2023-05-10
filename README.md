@@ -62,11 +62,11 @@
     </tr>
     <tr>
       <td>SEMANA 2</td>
-      <td></td>
+      <td>EMMANUEL SBONA</td>
     </tr>
     <tr>
       <td>SEMANA 3</td>
-      <td></td>
+      <td>FERNANDO CALA</td>
     </tr>
     <tr>
       <td>SEMANA 4</td>
