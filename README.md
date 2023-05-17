@@ -70,7 +70,7 @@
     </tr>
     <tr>
       <td>SEMANA 4</td>
-      <td></td>
+      <td>FAVIO JAVIER FLORES</td>
     </tr>
     <tr>
       <td>SEMANA 5</td>

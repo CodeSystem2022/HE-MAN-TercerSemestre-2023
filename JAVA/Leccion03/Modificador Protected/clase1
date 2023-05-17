@@ -1,0 +1,25 @@
+//matias michaux
+
+package paquete1;
+
+
+public class clase1 {
+    //atributo
+    public String atributoPublic = "valor atributo public";
+    protected String atributoProtected ="valor atributo protected";
+    
+    //constructor
+    public clase1(){
+        System.out.println("Constructor publico");
+    }
+    protected clase1(String atributoProtected){
+         System.out.println("constructor protected");
+    }
+    //metodos 
+    public void metodoPublico(){
+        System.out.println("Metodo publico");
+    }
+    protected void metodoProtected(){
+        System.out.println("Metodo protected");
+    }
+}

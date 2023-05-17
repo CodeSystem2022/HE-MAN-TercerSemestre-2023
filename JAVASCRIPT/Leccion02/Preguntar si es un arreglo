@@ -1,0 +1,19 @@
+//let autos = new Array('Ferrari','Toyota','BMW'); esta es la sintaxis vieja //SEBASTIAN BARROS
+
+const autos = ['Ferrari','Toyota','BMW'];
+
+console.log(autos)
+
+//recorremos los elementos del arreglo 
+for(let i = 0;i<autos.length;i++){
+    console.log(i+': '+autos[i])
+}
+
+//modificamos posiciones
+autos[0]= 'Audi';
+console.log(autos);
+//agregamos nuevos valores al arreglo
+autos.push ('Supra'); //con push se agrega al final del arreglo
+console.log(autos);
+//otras formas de agregar elementos al arreglo 
+autos[autos.le

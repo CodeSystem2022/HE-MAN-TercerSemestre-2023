@@ -1,0 +1,25 @@
+//matias michuax
+
+package paquete1;
+
+class clase2 {
+    String atributodefault = "valor del atributo default";
+    //constructo
+    //clase2 (){
+    //    System.out.println("constructor default");
+    //}
+    public clase2(){
+      super();
+      this.atributodefault = "modificacion de atributo default";
+        System.out.println("atributodefault = " + this.atributodefault);
+        this.metododefault();
+    }
+    
+    //metodo
+    void metododefault(){
+        System.out.println("metodo default");
+    }
+    
+    
+    
+}
