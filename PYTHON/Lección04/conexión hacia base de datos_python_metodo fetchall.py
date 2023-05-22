@@ -10,7 +10,10 @@ conexion = psycopg2.connect(
 cursor = conexion.cursor() #un cursor es un objeto que permite ejecutar sentencias 
 sentencia = 'SELECT * FROM persona'
 sentencia2= 'INSERT INTO persona(nombre,apellido, email) VALUES (%s,%s,%s)'
-datos = ('Jorge', 'Almirón','jorgealmironboquita@mail.com')
+d1 = input('ingrese nombre > ')
+d2 = input('ingrese apellido > ')
+d3 = input('ingrese email > ')
+datos = (d1, d2,d3)
 cursor.execute(sentencia2, datos)
 conexion.commit()
 cursor.execute(sentencia) # así ejecutamos la sentencia
