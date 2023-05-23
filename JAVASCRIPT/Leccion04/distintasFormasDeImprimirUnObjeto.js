@@ -1,7 +1,11 @@
 let x = 10; // Variable de tipo primitiva
 console.log(x.length);
 
+//Fabio Javier Flores
+//introducción a objetos en JS-Parte1y2
+
 // Objeto 
+
 let persona = {
     nombre: 'Carlos',
     apellido: 'Gil',
@@ -12,6 +16,7 @@ let persona = {
     }
     
 }
+
 
 console.log(typeof persona);
 console.log(persona.nombre);
