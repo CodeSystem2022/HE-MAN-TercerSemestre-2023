@@ -1,0 +1,14 @@
+package test;
+
+import domain.Persona;
+
+
+public class testbloqueinicializacion {
+    public static void main(String[] args) {
+         Persona peronal = new Persona();
+         System.out.println("peronal = " + peronal);
+         Persona personal2 = new Persona();
+         System.out.println("personal2 = " + personal2);
+    }
+  
+}

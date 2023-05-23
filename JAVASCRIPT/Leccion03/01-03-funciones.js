@@ -48,37 +48,37 @@ let sumar = function(a = 4, b = 8){
 resultado = sumar(3, 2, 9);
 console.log(resultado);
 
-// Sumar todo los argumentos
-let respuesta = sumarTodo(5, 4, 13, 10, 9);
-console.log(respuesta);
-function sumarTodo(){
+// Fabio Javier Flores - Concepto de Hoisting 
+//Sumar todo los argumentos
+let rta = SumarTodo(5,4,13,10,9);
+console.log(rta); 41
+function SumarTodo(){
     let suma = 0;
-    for(let i = 0; i < arguments.length; i++){
-        suma += arguments[i]; // arguments es para arreglos
+    for(let i = 0; i<arguments.length; i++){
+        suma += arguments[i];//'arguments' es para arreglos
     }
-    return suma;
 }
+//Fabio Javier Flores - Paso por valor
 
-//Tipos Primitivos
 let k = 10;
-function cambiarValor(a){ // Paso por valor
+function CambiarValor(a){ //Paso por valro
     a = 20;
 }
-
-cambiarValor(k);
+CambiarValor(k);
 console.log(k);
 
-// Paso por Referencia
-const persona = {
-    nombre: "Juan",
-    apellido: "Lepez"
-}
-console.log(persona);
-function cambiarValorObjeto(p1){
-   p1.nombre = "Ignacio";
-   p1.apellido = "Perez";
+//Fabio Javier Flores - Paso por referencia
+
+const Persona = {
+    nombre: 'Jorge',
+    apellido : 'Ramirez'
     
 }
-    
-cambiarValorObjeto(persona);
-console.log(persona);
+console.log(Persona);
+function CambiarValorObjeto(p1){
+    p1.nombre = 'Agustín';
+    p1.apellido = 'Tortoza';
+
+}
+CambiarValorObjeto(Persona);
+console.log(Persona); 

@@ -1,0 +1,14 @@
+public class Persona {
+    private final int idPersona;
+    private static int contadorpersonas;
+    
+    static{//bloque de inicializacion estatica
+        System.out.println("Ejecucion de tiempo estatico ");
+        ++Persona.contadorpersonas;
+        //idPersona = 10; no es un atributo estatico por esto tenemos un error
+    }
+    
+    { //bloque de inicializacion NO estatico (contexto dinamico)
+        
+        System.out.println("Ejecuciondel bloque NO estatico");
+        this.idPersona = Pe

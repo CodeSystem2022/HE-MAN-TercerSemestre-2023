@@ -1,7 +1,8 @@
 #1.4 Creación de: test_catalogo_peliculas
 #1.5 Comenzamos con las pruebas ingresando las otras clases
-from Dominio.Pelicula import pelicula
-from servicios.Catalogo_Peliculas import catalogo_Peliculas as cp
+
+from PYTHON.Leccion03.test_catalogo_peliculas import pelicula
+
 opcion = None
 while opcion != 4:
     try:
