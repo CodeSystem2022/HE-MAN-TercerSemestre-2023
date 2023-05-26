@@ -74,15 +74,15 @@
     </tr>
     <tr>
       <td>SEMANA 5</td>
-      <td></td>
+      <td>BRESANOVICH, JUAN MANUEL</td>
     </tr>
     <tr>
       <td>SEMANA 6</td>
-      <td></td>
+      <td>LOYOLA, JORGE AGUSTIN</td>
     </tr>
     <tr>
       <td>SEMANA 7</td>
-      <td></td>
+      <td>CORTEZ LUCIANO</td>
     </tr>
     <tr>
       <td>SEMANA 8</td>
