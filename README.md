@@ -48,7 +48,19 @@
     </tr>
   </table>
 </div>
---
+
+
+<div align="center" class="contenedor-imagenes">
+   <h1 >TOOLS</h1>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg"  width="100" height="80"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg"   width="100" height="80"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original-wordmark.svg"  width="100" height="80"/>
+ 
+</div>
+
+ 
+
+ 
 <div align= "center">
   <h1>Scrum Master:</h1>
   <table border="1">
