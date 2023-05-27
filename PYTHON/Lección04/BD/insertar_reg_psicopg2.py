@@ -14,6 +14,7 @@ try:
             registros_insertados = cursor.rowcount
             print(f'Los registros insertados son: {registros_insertados}')
 
+
 except Exception as e:
     print(f'Ocurrió un error: {e}')
 finally:
