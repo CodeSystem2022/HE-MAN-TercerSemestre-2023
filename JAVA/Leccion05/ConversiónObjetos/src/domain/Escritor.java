@@ -19,4 +19,9 @@ public class Escritor extends Empleado {
         public String toString(){
             return "Escritor ("+ "tipoEscritura=" + tipoEscritura + '}'+" "+super.toString();
         }
+        
+        public TipoEscritura getTipoEscritura (){
+            return this.tipoEscritura;
+            
+        }
 }
