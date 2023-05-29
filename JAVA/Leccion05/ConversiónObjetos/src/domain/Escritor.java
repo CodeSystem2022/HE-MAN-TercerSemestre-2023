@@ -1,14 +1,18 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package domain;
 
-/**
- *
- * @author FABJAV
- */
-public class Escritor {
-    
+
+public class Escritor extends Empleado {
+    final TipoEscritura tipoEscritura;
+        public Escritor(String nombre, double sueldo, TipoEscritura tipoEscritura){
+            super(nombre, sueldo);
+            this.tipoEscritura = tipoEscritura;
+        }
+        
+        //Metodo para sobreescrbir 
+        @Override
+        public String obtenerDetalles(){
+            return super.obtenerDetalles()+", Tipo Escritura: "+tipoEscritura.getDescripcion();
+        }
+        
 }
