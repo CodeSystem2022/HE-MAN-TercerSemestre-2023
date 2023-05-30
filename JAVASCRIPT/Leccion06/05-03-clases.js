@@ -5,11 +5,12 @@ class Persona{ //Clase padre
         this._nombre = nombre;
         this._apellido =apellido;
     }
-    //ver
+    
+
     get nombre(){
         return this._nombre;
     }
-    //modificar
+    
     set nombre(nombre){
         this._nombre=nombre;
     }
@@ -17,7 +18,7 @@ class Persona{ //Clase padre
     get apellido(){
         return this._apellido;
     }
-    //modificar
+    
     set apellido(apellido){
         this._apellido=apellido;
     }
