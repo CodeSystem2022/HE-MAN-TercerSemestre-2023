@@ -98,7 +98,7 @@
     </tr>
     <tr>
       <td>SEMANA 8</td>
-      <td>Mauricio Cerda</td>
+      <td>MAURICIO CERDA</td>
     </tr>
     <tr>
       <td>SEMANA 9</td>
