@@ -90,15 +90,15 @@
     </tr>
     <tr>
       <td>SEMANA 6</td>
-      <td>LOYOLA, JORGE AGUSTIN</td>
+      <td>JORGE AGUSTIN, LOYOLA</td>
     </tr>
     <tr>
       <td>SEMANA 7</td>
-      <td>CORTEZ LUCIANO</td>
+      <td>LUCIANO, CORTEZ</td>
     </tr>
     <tr>
       <td>SEMANA 8</td>
-      <td></td>
+      <td>Mauricio Cerda</td>
     </tr>
     <tr>
       <td>SEMANA 9</td>
