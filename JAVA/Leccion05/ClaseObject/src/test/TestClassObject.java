@@ -15,11 +15,18 @@ public class TestClassObject {
             System.out.println("Tienen distintas referencia en memoria");
         }
         
-        if (empleado1.equals(empleado2)){
+        if(empleado1.equals(empleado2)){
             System.out.println("Los objetos son iguales en contenido");
         }
         else{
-            System.out.println("Los objetos son distintos en contenido");
+            System.out.println("Los objetos son diferentes en contenido");
+        }
+        
+        if(empleado1.hashCode() == empleado2.hashCode()){
+            System.out.println("El vlor hashCode es igual");
+        }
+        else{
+            System.out.println("El valor hashCode es diferente");
         }
         
     }
