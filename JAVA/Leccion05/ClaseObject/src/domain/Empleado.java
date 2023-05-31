@@ -22,7 +22,9 @@ public class Empleado  {
     public String toString() {
         return "Empleado{" + "nombre=" + nombre + ", sueldo=" + sueldo + '}';
     }
-
+    
+    // HasCode
+    
     @Override
     public int hashCode() {
         int hash = 3;
@@ -30,7 +32,9 @@ public class Empleado  {
         hash = 11 * hash + (int) (Double.doubleToLongBits(this.sueldo) ^ (Double.doubleToLongBits(this.sueldo) >>> 32));
         return hash;
     }
-
+    
+    // Equals
+    
     @Override
     public boolean equals(Object obj) {
         if (this == obj) {
@@ -51,8 +55,6 @@ public class Empleado  {
         }
         return true;
     }
-    
-    
-    
-    
+
+     
 }
