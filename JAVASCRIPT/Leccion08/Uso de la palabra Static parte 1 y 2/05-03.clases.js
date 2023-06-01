@@ -4,7 +4,10 @@ class Persona{// CLASE PADRE
     static contadorPersona = 0; // Atributo estatico
     //email = 'Valor default email'; // Atributo no estatico
 
-    static get MAX_OBJ(){
+    
+
+    //Fabio Javier Flores
+    static get MAX_OBJ(){//Este metodo simula una constante
         return 5;
     }
 
@@ -138,14 +141,3 @@ let persona3 = new Persona('Carla', 'Pertosi');
 console.log(persona3.toString());
 console.log(Persona.contadorPersona);
 
-// Creamos una constante de tipo static
-console.log(Persona.MAX_OBJ)
-
-
-let persona4 = new Persona('juan', 'Perez');
-console.log(persona4.toString());
-console.log(Persona.contadorPersona);
-// Superamos el número maximo para crear personas. El contador se clava en 5
-let persona5 = new Persona('carmen', 'lujan');
-console.log(persona5.toString());
-console.log(Persona.contadorPersona);
