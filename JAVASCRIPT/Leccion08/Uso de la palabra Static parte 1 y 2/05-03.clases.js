@@ -141,3 +141,4 @@ let persona3 = new Persona('Carla', 'Pertosi');
 console.log(persona3.toString());
 console.log(Persona.contadorPersona);
 
+console.log(Persona.MAX_OBJ);
