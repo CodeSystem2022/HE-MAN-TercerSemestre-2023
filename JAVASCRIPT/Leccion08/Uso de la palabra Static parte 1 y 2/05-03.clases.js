@@ -145,7 +145,7 @@ console.log(Persona.contadorPersona);
 let persona3 = new Persona('Carla', 'Pertosi');
 console.log(persona3.toString());
 console.log(Persona.contadorPersona);
-
+//Fabio Javier Flores
 console.log(Persona.MAX_OBJ);
 //Persona.MAX_OBJ = 10; //No se puede modificar ni alterar
 
