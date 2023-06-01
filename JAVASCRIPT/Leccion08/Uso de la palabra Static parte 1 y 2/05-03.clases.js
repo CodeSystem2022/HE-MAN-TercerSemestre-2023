@@ -14,12 +14,17 @@ class Persona{// CLASE PADRE
     constructor(nombre, apellido){
         this._nombre = nombre;
         this._apellido= apellido;
+        
         if(Persona.contadorPersona < Persona.MAX_OBJ){
             this._idPersona= ++Persona.contadorPersona;
-        }else{
-            console.log('Se supero el número maximo de parsonas')
+        }
+        else{
+            console.log("Se superó el número maximo de personas")
         }
         //console.log('Se incrementa el contador: '+Persona.contadorPersona)
+
+        
+        
     }
 
     get nombre(){
@@ -142,3 +147,4 @@ console.log(persona3.toString());
 console.log(Persona.contadorPersona);
 
 console.log(Persona.MAX_OBJ);
+//Persona.MAX_OBJ = 10; //No se puede modificar ni alterar
