@@ -10,6 +10,8 @@ public class ImplementacionMySql implements IAccesoDatos{
     @Override
     public void insertar() {
         
+        
+        
         System.out.println("Insertar desde MySql");
     }
 
