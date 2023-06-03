@@ -4,19 +4,27 @@ class Persona{// CLASE PADRE
     static contadorPersona = 0; // Atributo estatico
     //email = 'Valor default email'; // Atributo no estatico
 
-    static get MAX_OBJ(){
+    
+
+    //Fabio Javier Flores
+    static get MAX_OBJ(){//Este metodo simula una constante
         return 5;
     }
 
     constructor(nombre, apellido){
         this._nombre = nombre;
         this._apellido= apellido;
+        
         if(Persona.contadorPersona < Persona.MAX_OBJ){
             this._idPersona= ++Persona.contadorPersona;
-        }else{
-            console.log('Se supero el número maximo de parsonas')
+        }
+        else{
+            console.log("Se superó el número maximo de personas")
         }
         //console.log('Se incrementa el contador: '+Persona.contadorPersona)
+
+        
+        
     }
 
     get nombre(){
@@ -137,15 +145,11 @@ console.log(Persona.contadorPersona);
 let persona3 = new Persona('Carla', 'Pertosi');
 console.log(persona3.toString());
 console.log(Persona.contadorPersona);
+//Fabio Javier Flores
+console.log(Persona.MAX_OBJ);
+//Persona.MAX_OBJ = 10; //No se puede modificar ni alterar
 
-// Creamos una constante de tipo static
-console.log(Persona.MAX_OBJ)
-
-
-let persona4 = new Persona('juan', 'Perez');
+let persona4 = new Persona('Franco','Diaz')
 console.log(persona4.toString());
-console.log(Persona.contadorPersona);
-// Superamos el número maximo para crear personas. El contador se clava en 5
-let persona5 = new Persona('carmen', 'lujan');
-console.log(persona5.toString());
-console.log(Persona.contadorPersona);
+let persona5 = new Persona('Liliana', 'Paz')
+console.log(persona5.toString()); //persona5 no puede ser definida porque la cantidad se excedió 
