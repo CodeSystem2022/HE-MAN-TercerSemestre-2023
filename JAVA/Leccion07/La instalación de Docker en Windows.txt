@@ -1,0 +1,19 @@
+La instalación de Docker en Windows 10 es realmente sencilla, ya que simplemente debemos hacer doble click sobre el ejecutable que nos hemos descargado anteriormente. El asistente de instalación se encargará de descargar de Internet todo lo necesario para su puesta en funcionamiento, no obstante, nos preguntará si queremos utilizar contenedores Windows en lugar de contenedores Linux. Por defecto, hace uso de contenedores Linux, aunque estemos usando Windows 10, no obstante, esto podremos cambiarlo posteriormente sin problemas.
+Al finalizar la instalación, nos indicará que es recomendable hacer uso de Hyper-V para que Docker funcione perfectamente en Windows 10. No obstante, también nos indica que, si tienes instalado Virtual Box, este dejará de funcionar.
+Una vez que activemos esto, el ordenador se reiniciará para aplicar los cambios en Windows, de hecho, se reinicia en un par de ocasiones. Una vez que volvamos al sistema operativo, podremos ver que se ejecutará Docker al inicio de Windows, aunque esto lo podremos cambiar más adelante.
+En las opciones de Docker vamos a poder acceder a las opciones del propio software, comprobar actualizaciones, o cambiar de contenedores Linux a contenedores Windows fácilmente. Además, también vamos a poder hacer uso de nuestro Docker ID para acceder a los repositorios de Docker Hub.
+
+En la sección de «Settings» es donde podremos ver las principales configuraciones a realizar con Docker, como por ejemplo seleccionar los discos compartidos, opciones de red, uso de Proxy y muchas otras opciones.
+Una vez que tengamos Docker instalado y configurado, podremos comprobar fácilmente si se ha instalado correctamente ejecutando Powershell. Pinchamos en «Inicio» y buscamos «Powershell», una vez que se nos abra la terminal de Windows, ponemos los siguientes comandos.
+
+Si queremos comprobar la versión de Docker que tenemos instalada:
+
+docker version
+
+Si queremos ejecutar el típico «Hello World» para comprobar que todo funcionar correctamente:
+
+docker run hello-world
+
+Por último, podremos lanzar una terminal Bash de Linux haciendo uso de Docker, para ello, simplemente debemos indicar:
+
+docker run -it ubuntu bash
