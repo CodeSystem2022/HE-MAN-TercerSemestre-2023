@@ -1,14 +1,18 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package accesoDatos;
 
 /**
  *
  * @author FABJAV
  */
-public class ImplementacionMySql {
+public class ImplementacionMySql implements IAccesosDatos {
     
+    @Override
+    public void insertar(){
+        throw new UnsopportedOperaionException("Not suported yet."); 
+    }
+    @Override
+    public void listar(){
+        throw new UnsopportedOperaionException("Not suported yet."); 
+        
 }
