@@ -52,16 +52,16 @@ class Persona{// CLASE PADRE
         // El método que se ejecura depende si es una referancia de tipo padre o hija
         return this._idPersona+' '+this.nombreCompleto();
     }
-
-    static saludar(){
-        console.log('Saludos desde este metodo static')
     
+    //Palabra static con metodos parte 1 // Sbona Emmanuel
+    static saludar(){
+        console.log("Saludos desde el metodo static");
     }
 
     static saludar2(persona){
         console.log(persona.nombre);
     }
-
+    //Palabra static con metodos parte 1 // Sbona Emmanuel
 }
 
 class Empleado extends Persona{
@@ -118,10 +118,11 @@ console.log(empleado1.departamento)
 //Object.prototype.toString Esta es la manera de acceder a atributos y metodos de manera dinamica
 console.log(empleado1.toString());
 
-
-//persona1.saludar(); no se utiliza desde un objeto
+//Palabra static con metodos parte 1 // Sbona Emmanuel
+//persona1.saludar(); // No se utiliza desde el objeto
 Persona.saludar();
 Persona.saludar2(persona1);
+//Palabra static con metodos parte 1 // Sbona Emmanuel
 
 Empleado.saludar(); // El método es llamado desde la clase hija
 Empleado.saludar2(persona1);
