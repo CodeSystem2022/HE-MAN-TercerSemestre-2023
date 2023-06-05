@@ -102,7 +102,7 @@
     </tr>
     <tr>
       <td>SEMANA 9</td>
-      <td></td>
+      <td>SEBASTIAN BARROS</td>
     </tr>
   </table>
 </div>
