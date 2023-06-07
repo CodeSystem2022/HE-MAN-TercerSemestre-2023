@@ -59,7 +59,7 @@ class Persona{// CLASE PADRE
     }
 
     static saludar2(persona){
-        console.log(persona.nombre);
+        console.log(persona.nombre+' '+persona.apellido); //MÈtodo 2 concatenamos con persona.apellido //Bresanovich Juan Manuel
     }
     //Palabra static con metodos parte 1 // Sbona Emmanuel
 }
@@ -126,7 +126,8 @@ Persona.saludar2(persona1);
 
 Empleado.saludar(); // El m√©todo es llamado desde la clase hija
 Empleado.saludar2(persona1);
-
+Empleado.saludar() //Llamamos al metodo desde la clase empleado //Bresanovich Juan Manuel
+Empleado.saludar2(persona1)//Le pasamos el objeto de empleado1
 
 //console.log(persona1.contadorObjetoPersona)
 console.log(Persona.contadorPersona);
