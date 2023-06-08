@@ -1,12 +1,16 @@
+import self as self
+
 from logger_base import log
 
-class Persona:
+class Persona: #Clase Persona
+
 def __init__(self, id_persona, nombre, apellido, email):
 	self._id_persona = id_persona
 	self._nombre = nombre
 	self._apellido = apellido
 	self._email = email
 def __str__(self):
+
 	return f'''
 		id	Persona:{self._id_persona},
 		Nombre:{self,_nombre},
