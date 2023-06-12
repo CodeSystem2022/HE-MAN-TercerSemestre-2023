@@ -104,5 +104,9 @@
       <td>SEMANA 9</td>
       <td>SEBASTIAN BARROS</td>
     </tr>
+    <tr>
+      <td>SEMANA 10</td>
+      <td>MATIAS MICHAUX</td>
+    </tr>
   </table>
 </div>
