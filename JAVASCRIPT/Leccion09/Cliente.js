@@ -8,5 +8,8 @@ class Cliente extends Persona{
         this._fechaRegistro = fecharegistro;
     }
 
+    get idCliente(){
+        return this._idCliente;
+    }
    
 }
