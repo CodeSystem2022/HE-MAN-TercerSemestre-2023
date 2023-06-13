@@ -11,5 +11,11 @@ class Cliente extends Persona{
     get idCliente(){
         return this._idCliente;
     }
-   
+    get fecharegistro(){
+        return this._fechaRegistro;
+    }
+
+    set fecharegistro(fecharegistro){
+        this._fechaRegistro = fecharegistro;
+    }
 }
