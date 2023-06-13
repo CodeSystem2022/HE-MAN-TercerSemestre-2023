@@ -18,4 +18,11 @@ class Cliente extends Persona{
     set fecharegistro(fecharegistro){
         this._fechaRegistro = fecharegistro;
     }
+
+    toString(){
+        return `
+        ${super.toString()} 
+        ${this._idCliente} 
+        ${this._fechaRegistro}`;
+    }
 }
