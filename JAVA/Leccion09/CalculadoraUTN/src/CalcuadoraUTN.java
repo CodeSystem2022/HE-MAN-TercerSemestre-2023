@@ -5,7 +5,7 @@ public class ClaculadoraUTN {
         Scanner entrada = new Scanner(System.in);
         while (true){ //ciclo infinito
             System.out.println("*******Aplicacion Calculadora *******");
-            mostrarMenu();
+            mostrarMenu();//llamamos a la funcion menu
 
             try {
                 var operacion = Integer.parseInt(entrada.nextLine());
