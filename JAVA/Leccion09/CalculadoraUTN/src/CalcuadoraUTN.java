@@ -48,7 +48,7 @@ public class ClaculadoraUTN {
             } catch (Exception e){ //fin del try
                 System.out.println("Ocurrio un error" + e.getMessage());
                 System.out.println();
-            }
+            }// fin catch - termina 9.7 Agregamos try catch para las excepciones.
         } //fin while
     }//fin main
 
