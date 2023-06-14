@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ClaculadoraUTN {
+public class CalculadoraUTN {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         while (true){ //ciclo infinito
@@ -10,35 +10,10 @@ public class ClaculadoraUTN {
             try {
                 var operacion = Integer.parseInt(entrada.nextLine());
                 if (operacion >= 1 && operacion <= 4) {
-                    System.out.print("Digitenel valor para el operando1: ");
-                    var operando1 = Integer.parseInt(entrada.nextLine());
-                    System.out.print("Digitenel valor para el operando2: ");
-                    var operando2 = Integer.parseInt(entrada.nextLine());
-
-                    int resultado;
-                    switch (operacion) {
-                        case 1 -> {
-                            resultado = operando1 + operando2;
-                            System.out.println("resultado:" + resultado);
-                        }
-                        case 2 -> {
-                            resultado = operando1 - operando2;
-                            System.out.println("resultado de la resta " + resultado);
-                        }
-                        case 3 -> {
-                            resultado = operando1 * operando2;
-                            System.out.println("El resultado de la multiplicacion" + resultado);
-                        }
-                        case 4 -> {
-                            resultado = operando1 / operando2;
-                            System.out.println("resultado de la division " + resultado);
-                        }
-                        default -> System.out.println("Opcion erronea:" + operacion);
-
-                    } //fin switch
-
-                } //fin del if
-                else if (operacion == 5) {
+                    
+                   ejecutarOperacion(operacion,entrada);//funcion 
+                 
+                } else if (operacion == 5) {
                     System.out.println("Hasta Pronto...");
                     break; //rompe el ciclo y sale
                 } else {
@@ -63,4 +38,31 @@ public class ClaculadoraUTN {
                 """);
         System.out.print("Operacion a realizar?");
     }
+    private static void ejecutarOperacion(int operacion, Scanner entrada){
+        System.out.print("Digite el valor para el operando1");
+        var operador1 =Double.parseDouble(entrada.nextLine());
+        System.out.print("Digite el valor para el operando2");
+        var operador2 =Double.parseDouble(entrada.nextLine());
+        double resultado;
+        switch (operacion){
+
+            case 1 ->{//suma
+                resultado = operador1 + operador2;
+                System.out.println("El resultado es: "+resultado);
+            }
+            case 2 ->{//resta
+                resultado = operador1 - operador2;
+                System.out.println("El resultado es:"+resultado);
+            }
+            case 3 ->{//multiplicacion
+                resultado = operador1 * operador2;
+                System.out.println("El resultado es:"+resultado);
+            }
+            case 4 ->{//division
+                resultado = operador1 / operador2;
+                System.out.println("El resultado es:"+resultado);
+            }
+            default -> System.out.println("OPCION ERRONEA"+operacion);
+        }
+    }                       
 } //fin clase
