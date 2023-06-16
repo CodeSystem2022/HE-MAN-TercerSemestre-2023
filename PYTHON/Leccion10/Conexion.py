@@ -13,7 +13,9 @@ class conexion:
 
     @classmethod
     def obtenerConexion(cls):
-        pass
+        conexion = cls.obtenerpool().getconn()
+        log.debug(f"Conexion obtenida del pool: {conexion}")
+        return conexion
 
     @classmethod
     def obtenerCursor(cls):
