@@ -108,5 +108,13 @@
       <td>SEMANA 10</td>
       <td>MATIAS MICHAUX</td>
     </tr>
+    <tr>
+      <td>SEMANA 11</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>SEMANA 12</td>
+      <td></td>
+    </tr>
   </table>
 </div>
