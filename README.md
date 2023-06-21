@@ -110,7 +110,7 @@
     </tr>
     <tr>
       <td>SEMANA 11</td>
-      <td></td>
+      <td>EMMANUEL SBONA</td>
     </tr>
     <tr>
       <td>SEMANA 12</td>
