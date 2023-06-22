@@ -11,6 +11,7 @@ public class ListadoPersonasApp {
         var salir = false;
         while(!salir){
             mostrarMenu();
+            System.out.println();
         }//fin ciclo while
     }//Fin método main
     private static void mostrarMenu(){
@@ -21,6 +22,8 @@ public class ListadoPersonasApp {
                 2. Listar
                 3. Salir
                 """);
+        System.out.print("Digite una de las opciones: ");
+
 
     }
 }
