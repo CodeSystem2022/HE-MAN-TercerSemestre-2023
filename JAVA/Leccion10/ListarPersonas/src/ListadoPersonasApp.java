@@ -11,9 +11,9 @@ public class ListadoPersonasApp {
         var salir = false;
         while(!salir){
             mostrarMenu();
-        }
-
-
-
+        }//fin ciclo while
     }//Fin método main
+    private static void mostrarMenu(){
+        //mostrar opciones
+    }
 }
