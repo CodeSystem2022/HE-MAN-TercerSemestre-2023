@@ -31,5 +31,6 @@ public class ListadoPersonasApp {
 
 
     }//fin metodo mostrar menú
-    
+    private static boolean ejecutarOperacion(Scanner erntrada, List<Persona> personas){
+        
 }
