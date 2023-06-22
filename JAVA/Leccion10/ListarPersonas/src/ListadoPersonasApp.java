@@ -15,5 +15,12 @@ public class ListadoPersonasApp {
     }//Fin método main
     private static void mostrarMenu(){
         //mostrar opciones
+        System.out.print("""
+                ******** Listado de personas ********
+                1. Agregar
+                2. Listar
+                3. Salir
+                """);
+        
     }
 }
