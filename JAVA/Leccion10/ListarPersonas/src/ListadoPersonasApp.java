@@ -21,6 +21,6 @@ public class ListadoPersonasApp {
                 2. Listar
                 3. Salir
                 """);
-        
+
     }
 }
