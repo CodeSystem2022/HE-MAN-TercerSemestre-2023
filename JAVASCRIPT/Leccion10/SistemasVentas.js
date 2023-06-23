@@ -95,6 +95,3 @@ orden2.mostarOrden();
 }
 
 
-console.log(producto1.toString());
-console.log(producto2.toString());
-
