@@ -114,7 +114,7 @@
     </tr>
     <tr>
       <td>SEMANA 12</td>
-      <td></td>
+      <td>LUCIANO, CORTEZ</td>
     </tr>
   </table>
 </div>
