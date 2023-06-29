@@ -22,6 +22,13 @@ class CursorDelPool:
             log.debug("Commit de la transaccion")
         self._cursor.close()
         Conexion.liberarConexion(self._conexion)
+        cursor.execute("SELECT * FROM persona")
+        log.debug(cursor.fetchall())
+
+
+if __name__ == "__main__":
+    with CursorDelPool() as cursor:
+        log.debug("Dentro del bloque with")
 
 
 
