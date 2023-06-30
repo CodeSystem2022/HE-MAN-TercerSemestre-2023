@@ -78,6 +78,14 @@ public class EstudianteDAO {
         List<Estudiante> estudiantes = EstudianteDao.listarEstudiantes();
         estudiantes.forEach(System.out::println); // Funcion lambda para imprimir
 
+        // Buscar por Id
+	    var estudiante1 = new Estudiante(1);
+	    System.out.println("Estudiantes antes de la busqueda: " + estudiante1);
+	    var encontrado = estudianteDao.buscarEstudiantePorId(estudiante1);
+	    if(encontrado)
+		    System.out.println("Estudiante encontrado: "+estudiante1);
+	    else
+		    System.out.println("No se encontro el Estudiante: "+estudiante1.getIdEstudiante());
     }
 
     
