@@ -10,14 +10,14 @@ import java.util.List;
 
 public class EstudianteDAO {
     //metodo listar
-    public List<Estudiante> listar(){
+    public List<Estudiante> listarEstudiantes(){
         List<Estudiante> estudiantes = new ArrayList<>();
         //creamos algunos objetos que son necesarios para comunicarlos con la base de datos
         PreparedStatement ps;//introduce la sentencia
         ResultSet rs;//obtiene el resultado
         //creamos un objeto de tipo conexion
         Connection con = getConnection();
-        String sql = "SELECT * FROM estudiantes ORDER BY estudiantes2022";
+        String sql = "SELECT * FROM estudiantes2022 ORDER BY idestudiantes2022";
         try{
             ps = con.prepareStatement(sql);
             rs = ps.executeQuery();
@@ -43,4 +43,16 @@ public class EstudianteDAO {
         }//fin finally
         return estudiantes;
     }//fin metodo listar
+
+
+    public static void main(String[] args){
+        //Listar los estudiantes
+        var EstudianteDao = new EstudianteDAO();
+        System.out.println("Listado de estudiantes: ");
+        List<Estudiante> estudiantes = EstudianteDao.listarEstudiantes();
+        estudiantes.forEach(System.out::println); // Funcion lambda para imprimir
+
+    }
+
+    
 }
