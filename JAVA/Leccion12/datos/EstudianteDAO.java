@@ -164,11 +164,13 @@ public static void main(String[] args) {
 
         //Agregar estudiante
 
-    var nuevoEstudiante = new Estudiante("Carlos", "lara", "651464181325", "carlosl@mail.com");
-    var agregado = estudianteDao.agregarEstudiaante(nuevoEstudiante);
-    if(agregado)
-        System.out.println("Estudiante agregado: "+nuevoEstudiante);
-    else System.out.println("No se ha agregado estudiante: "+nuevoEstudiante);
+    //var nuevoEstudiante = new Estudiante("Carlos", "lara", "651464181325", "carlosl@mail.com");
+    //var agregado = estudianteDao.agregarEstudiaante(nuevoEstudiante);
+    //if(agregado)
+      //  System.out.println("Estudiante agregado: "+nuevoEstudiante);
+    //else
+      //  System.out.println("No se ha agregado estudiante: "+nuevoEstudiante);
+    
         //Buscar por id
         //var estudiante1 = new Estudiante(1);
         //System.out.println("Estudiante antes de la busqueda: "+estudiante1);
