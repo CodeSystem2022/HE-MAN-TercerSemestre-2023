@@ -156,14 +156,7 @@ public static void main(String[] args) {
         else
             System.out.println("No se modifico el estudiante: "+estudianteModificado);
 
-        //Agregar estudiante
-        //var nuevoEstudiante = new Estudiante("Carlos", "Lara", "549855521","carlosl@mail.com");
-        //var agregado = estudianteDao.agregarEstudiante(nuevoEstudiante);
-        //if(agregado)
-        //    System.out.println("Estudiante agregado: "+nuevoEstudiante);
-        //else
-        //    System.out.println("No se ha agregado estudiante: "+nuevoEstudiante);
-
+       
         //Listar los estudiantes
         System.out.println("Listado de estudiantes: ");
         List<Estudiante> estudiantes = estudianteDao.listarEstudiantes();
