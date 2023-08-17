@@ -1,28 +1,25 @@
 <div id="header" align="center">
   <h1>GRUPO</h1>
   <h1>HE-MAN</h1>
-  <img style="width: 700px" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWpzczBkdXdqZWNra2Y3enl2bW02dXZqN2IxOG5tbGNjcmtsaTFpZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/EFWRgGrN4kYIjWCbo0/giphy.gif">
+  <img  src="https://media.giphy.com/media/BdAn5S0xigpO/giphy.gif">
+</div>
+  
+<div id="integrantes">
+  <h1>INTEGRANTES:</h1>
+  <ul style="color: blue; list-style-type: armenian;">
+    <li>MATIAS MICHAUX</li>
+    <li>EMMANUEL SBONA</li>
+    <li>FERNANDO CALA</li>
+    <li>FAVIO JAVIER FLORES</li>
+    <li>BRESANOVICH, JUAN MANUEL</li>
+    <li>JORGE AGUSTIN, LOYOLA</li>
+    <li>LUCIANO, CORTEZ</li>
+    <li>MAURICIO CERDA</li>
+    <li>LUCIANO, CORTEZ</li>
+  </ul>
 </div>
 
-  <h1>INTEGRANTES:</h1>
 
-:white_check_mark:  [MATIAS MICHAUX](https://github.com/MatiasMichaux98) <br>
-
-:white_check_mark:  [EMMANUEL SBONA](https://github.com/Emmanuel-1985) <br>
- 
-:white_check_mark:  [FERNANDO CALA](https://github.com/FernandoCala) <br>
-
-:white_check_mark:  [FAVIO JAVIER FLORES](https://github.com/fabjav) <br>
-
-:white_check_mark:  [BRESANOVICH, JUAN MANUEL](https://github.com/1juba) <br>
-
-:white_check_mark:  [JORGE AGUSTIN, LOYOLA](https://github.com/Jorge-Agustin-Loyola) <br>
-
-:white_check_mark:  [LUCIANO, CORTEZ](https://github.com/Lucianoalma) <br>
-
-:white_check_mark:  [MAURICIO CERDA](https://github.com/MauryCerda) <br>
-
-:white_check_mark:  [SEBASTIAN BARROS](https://github.com/2022sbm) <br>
 
 
 <div align="center" class="contenedor-imagenes">
@@ -53,11 +50,37 @@
     </tr>
     <tr>
       <td>SEMANA 3</td>
-      <td></td>
+      <td>FERNANDO CALA</td>
     </tr>
     <tr>
       <td>SEMANA 4</td>
-      <td></td>
+      <td>FAVIO JAVIER FLORES</td>
     </tr>
-  </table>
-</div>
+    <tr>
+      <td>SEMANA 5</td>
+      <td>BRESANOVICH, JUAN MANUEL</td>
+    </tr>
+    <tr>
+      <td>SEMANA 6</td>
+      <td>JORGE AGUSTIN, LOYOLA</td>
+    </tr>
+    <tr>
+      <td>SEMANA 7</td>
+      <td>LUCIANO, CORTEZ</td>
+    </tr>
+    <tr>
+      <td>SEMANA 8</td>
+      <td>MAURICIO CERDA</td>
+    </tr>
+    <tr>
+      <td>SEMANA 9</td>
+      <td>SEBASTIAN BARROS</td>
+    </tr>
+    <tr>
+      <td>SEMANA 10</td>
+      <td>MATIAS MICHAUX</td>
+    </tr>
+    <tr>
+      <td>SEMANA 11</td>
+      <td>EMMANUEL SBONA</td>
+    </tr>
