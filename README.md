@@ -1,53 +1,28 @@
-<div align="center">
+<div id="header" align="center">
   <h1>GRUPO</h1>
   <h1>HE-MAN</h1>
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTJmZjA0ZDI3MmU5OGYxMDM0M2RiODAwYmViNjA4Y2FmMWQyMGRlNCZjdD1n/BdAn5S0xigpO/giphy.gif" width="350"  >
+  <img style="width: 700px" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWpzczBkdXdqZWNra2Y3enl2bW02dXZqN2IxOG5tbGNjcmtsaTFpZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/EFWRgGrN4kYIjWCbo0/giphy.gif">
 </div>
-<div align= "center">
+
   <h1>INTEGRANTES:</h1>
-  <table border="1">
-    <tr>
-      <th>NOMBRE:</th>
-      <th>APELLIDO:</th>
-    </tr>
-    <tr>
-      <td>Emmanuel</td>
-      <td>Sbona</td>
-    </tr>
-    <tr>
-      <td>Matias</td>
-      <td>Michaux</td>
-    </tr>
-    <tr>
-      <td>Jorge Agustin</td>
-      <td>Loyola</td>
-    </tr>
-    <tr>
-      <td>Fabio Javier</td>
-      <td>Flores</td>
-    </tr>
-    <tr>
-      <td>Luciano</td>
-      <td>Cortez</td>
-    </tr>
-    <tr>
-      <td>Mauricio</td>
-      <td>Cerda</td>
-    </tr>
-    <tr>
-      <td>Fernando Matias</td>
-      <td>Cala</td>
-    </tr>
-    <tr>
-      <td>Juan Manuel</td>
-      <td>Bresanovich</td>
-    </tr>
-    <tr>
-      <td>Sebastían</td>
-      <td>Barros</td>
-    </tr>
-  </table>
-</div>
+
+:white_check_mark:  [MATIAS MICHAUX](https://github.com/MatiasMichaux98) <br>
+
+:white_check_mark:  [EMMANUEL SBONA](https://github.com/Emmanuel-1985) <br>
+ 
+:white_check_mark:  [FERNANDO CALA](https://github.com/FernandoCala) <br>
+
+:white_check_mark:  [FAVIO JAVIER FLORES](https://github.com/fabjav) <br>
+
+:white_check_mark:  [BRESANOVICH, JUAN MANUEL](https://github.com/1juba) <br>
+
+:white_check_mark:  [JORGE AGUSTIN, LOYOLA](https://github.com/Jorge-Agustin-Loyola) <br>
+
+:white_check_mark:  [LUCIANO, CORTEZ](https://github.com/Lucianoalma) <br>
+
+:white_check_mark:  [MAURICIO CERDA](https://github.com/MauryCerda) <br>
+
+:white_check_mark:  [SEBASTIAN BARROS](https://github.com/2022sbm) <br>
 
 
 <div align="center" class="contenedor-imagenes">
@@ -78,43 +53,11 @@
     </tr>
     <tr>
       <td>SEMANA 3</td>
-      <td>FERNANDO CALA</td>
+      <td></td>
     </tr>
     <tr>
       <td>SEMANA 4</td>
-      <td>FAVIO JAVIER FLORES</td>
-    </tr>
-    <tr>
-      <td>SEMANA 5</td>
-      <td>BRESANOVICH, JUAN MANUEL</td>
-    </tr>
-    <tr>
-      <td>SEMANA 6</td>
-      <td>JORGE AGUSTIN, LOYOLA</td>
-    </tr>
-    <tr>
-      <td>SEMANA 7</td>
-      <td>LUCIANO, CORTEZ</td>
-    </tr>
-    <tr>
-      <td>SEMANA 8</td>
-      <td>MAURICIO CERDA</td>
-    </tr>
-    <tr>
-      <td>SEMANA 9</td>
-      <td>SEBASTIAN BARROS</td>
-    </tr>
-    <tr>
-      <td>SEMANA 10</td>
-      <td>MATIAS MICHAUX</td>
-    </tr>
-    <tr>
-      <td>SEMANA 11</td>
-      <td>EMMANUEL SBONA</td>
-    </tr>
-    <tr>
-      <td>SEMANA 12</td>
-      <td>LUCIANO, CORTEZ</td>
+      <td></td>
     </tr>
   </table>
 </div>
