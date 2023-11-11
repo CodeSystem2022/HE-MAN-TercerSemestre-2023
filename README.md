@@ -15,7 +15,7 @@
     <li>JORGE AGUSTIN, LOYOLA</li>
     <li>LUCIANO, CORTEZ</li>
     <li>MAURICIO CERDA</li>
-    <li>LUCIANO, CORTEZ</li>
+    <li>SEBASTIAN BARROS</li>
   </ul>
 </div>
 
